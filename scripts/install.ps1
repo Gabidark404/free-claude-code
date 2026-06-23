@@ -309,7 +309,7 @@ function Install-ClaudeIfMissing {
     }
 
     Assert-CommandAvailable "npm"
-    Invoke-InstallCommand -FilePath "npm" -Arguments @("install", "-g", "@anthropic-ai/claude-code")
+    Invoke-InstallCommand -FilePath "npm" -Arguments @("install", "-g", "@anthropic-ai/claude-code@2.1.112")
 }
 
 function Install-CodexIfMissing {
